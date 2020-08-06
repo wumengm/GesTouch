@@ -16,6 +16,7 @@
 		A70EB4F124DBFA4E009BDB1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A70EB4F024DBFA4E009BDB1E /* main.m */; };
 		A70EB4FB24DBFA4F009BDB1E /* GESTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70EB4FA24DBFA4F009BDB1E /* GESTTests.m */; };
 		A70EB50624DBFA4F009BDB1E /* GESTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70EB50524DBFA4F009BDB1E /* GESTUITests.m */; };
+		A70EB51624DBFD2A009BDB1E /* ExpandTouchSpaceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A70EB51424DBFD2A009BDB1E /* ExpandTouchSpaceButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A70EB50124DBFA4F009BDB1E /* GESTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GESTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70EB50524DBFA4F009BDB1E /* GESTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GESTUITests.m; sourceTree = "<group>"; };
 		A70EB50724DBFA4F009BDB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A70EB51424DBFD2A009BDB1E /* ExpandTouchSpaceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandTouchSpaceButton.m; sourceTree = "<group>"; };
+		A70EB51524DBFD2A009BDB1E /* ExpandTouchSpaceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandTouchSpaceButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 				A70EB4E224DBFA48009BDB1E /* SceneDelegate.m */,
 				A70EB4E424DBFA48009BDB1E /* ViewController.h */,
 				A70EB4E524DBFA48009BDB1E /* ViewController.m */,
+				A70EB51324DBFD2A009BDB1E /* bUS */,
 				A70EB4E724DBFA48009BDB1E /* Main.storyboard */,
 				A70EB4EA24DBFA4E009BDB1E /* Assets.xcassets */,
 				A70EB4EC24DBFA4E009BDB1E /* LaunchScreen.storyboard */,
@@ -135,6 +139,15 @@
 				A70EB50724DBFA4F009BDB1E /* Info.plist */,
 			);
 			path = GESTUITests;
+			sourceTree = "<group>";
+		};
+		A70EB51324DBFD2A009BDB1E /* bUS */ = {
+			isa = PBXGroup;
+			children = (
+				A70EB51424DBFD2A009BDB1E /* ExpandTouchSpaceButton.m */,
+				A70EB51524DBFD2A009BDB1E /* ExpandTouchSpaceButton.h */,
+			);
+			path = bUS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 			files = (
 				A70EB4E624DBFA48009BDB1E /* ViewController.m in Sources */,
 				A70EB4E024DBFA48009BDB1E /* AppDelegate.m in Sources */,
+				A70EB51624DBFD2A009BDB1E /* ExpandTouchSpaceButton.m in Sources */,
 				A70EB4F124DBFA4E009BDB1E /* main.m in Sources */,
 				A70EB4E324DBFA48009BDB1E /* SceneDelegate.m in Sources */,
 			);
